@@ -1,0 +1,6 @@
+PyGithub
+black
+environs
+flake8
+isort
+pyupgrade
