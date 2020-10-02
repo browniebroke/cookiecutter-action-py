@@ -2,6 +2,14 @@
 
 A cookiecutter template for generating Github actions running Python
 
+## Features
+
+- CI powered Github actions.
+- Dependabot pre-configured.
+- Comes with a set of pre-commit hooks.
+- Follow the conventional commits specification. 
+- Releasing automated with python-semantic-release.
+
 ## Quick start
 
 ### Pre-requisites
