@@ -13,11 +13,14 @@ certifi==2020.6.20        # via requests
 chardet==3.0.4            # via binaryornot, requests
 click==7.1.2              # via black, cookiecutter
 cookiecutter==1.7.2       # via -r requirements.in, pytest-cookies
+flake8==3.8.3             # via -r requirements.in
 idna==2.10                # via requests
-importlib-metadata==2.0.0  # via pluggy, pytest
+importlib-metadata==2.0.0  # via flake8, pluggy, pytest
+isort==5.5.4              # via -r requirements.in
 jinja2-time==0.2.0        # via cookiecutter
 jinja2==2.11.2            # via cookiecutter, jinja2-time
 markupsafe==1.1.1         # via cookiecutter, jinja2
+mccabe==0.6.1             # via flake8
 more-itertools==8.5.0     # via pytest
 mypy-extensions==0.4.3    # via black
 packaging==20.4           # via pytest
@@ -25,15 +28,19 @@ pathspec==0.8.0           # via black
 pluggy==0.13.1            # via pytest
 poyo==0.5.0               # via cookiecutter
 py==1.9.0                 # via pytest
+pycodestyle==2.6.0        # via flake8
+pyflakes==2.2.0           # via flake8
 pyparsing==2.4.7          # via packaging
 pytest-cookies==0.5.1     # via -r requirements.in
 pytest==5.4.3             # via -r requirements.in, pytest-cookies
 python-dateutil==2.8.1    # via arrow
 python-slugify==4.0.1     # via cookiecutter
+pyupgrade==2.7.2          # via -r requirements.in
 regex==2020.7.14          # via black
 requests==2.24.0          # via cookiecutter
 six==1.15.0               # via cookiecutter, packaging, python-dateutil
 text-unidecode==1.3       # via python-slugify
+tokenize-rt==4.0.0        # via pyupgrade
 toml==0.10.1              # via black
 typed-ast==1.4.1          # via black
 typing-extensions==3.7.4.3  # via black
