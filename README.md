@@ -6,21 +6,21 @@ A cookiecutter template for generating Github actions running Python
 
 - CI powered Github actions.
 - Dependabot pre-configured.
-- Comes with a set of pre-commit hooks.
-- Follow the conventional commits specification. 
-- Releasing automated with python-semantic-release.
+- Comes with a set of [pre-commit](https://pre-commit.com/) hooks.
+- Follow [the conventional commits](https://www.conventionalcommits.org) specification. 
+- Releasing automated with [python-semantic-release](https://github.com/relekang/python-semantic-release).
 
 ## Quick start
 
 ### Pre-requisites
 
-Make sure that you have the cookiecutter command line interface installed:
+Make sure that you have the [cookiecutter](https://cookiecutter.readthedocs.io) command line interface installed:
 
 ```shell script
 cookiecutter --version
 ```
 
-If this is not the case, install it first.
+If this is not the case, install it first. Check out [their documentation](https://cookiecutter.readthedocs.io/en/latest/installation.html) for the most up to date info for your platform.
 
 ### Usage
 
@@ -46,7 +46,7 @@ Select branding_color:
 Choose from 1, 2, 3, 4, 5, 6, 7, 8 [1]:
 ```
 
-The project should live in a directory named after the answer you gave for the `hyphenated_name`, this should match your Github repo name.
+The generated project will live in a directory named after the answer you gave for the `hyphenated_name`, this should match your Github repo name.
 
 ### Next steps
 
