@@ -1,5 +1,5 @@
 from environs import Env
-from github import Github, UnknownObjectException
+from github import Github
 
 env = Env()
 

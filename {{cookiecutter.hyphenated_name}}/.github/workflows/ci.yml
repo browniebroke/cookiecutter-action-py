@@ -1,4 +1,4 @@
-name: Test
+name: CI
 
 on:
   push:
@@ -12,9 +12,9 @@ jobs:
       fail-fast: false
       matrix:
         script:
-          - flake8 --config=setup.cfg
+          - flake8
           - black --check .
-          - pyupgrade --py3-plus `find . -name "*.py"`
+          - pyupgrade --py38-plus `find . -name "*.py"`
           - isort -c -v .
     runs-on: ubuntu-latest
     steps:

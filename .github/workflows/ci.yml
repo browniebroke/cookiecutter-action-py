@@ -27,13 +27,13 @@ jobs:
       matrix:
         linter:
           - name: Flake8
-            run: flake8 --config=setup.cfg tests.py
+            run: flake8
           - name: Black
-            run: black --check tests.py
+            run: black --check .
           - name: PyUpgrade
-            run: pyupgrade --py36-plus tests.py
+            run: pyupgrade --py38-plus `find . -name "*.py"`
           - name: isort
-            run: isort -c -v tests.py
+            run: isort -c -v .
     runs-on: ubuntu-latest
     steps:
     - uses: actions/checkout@v2.3.2
