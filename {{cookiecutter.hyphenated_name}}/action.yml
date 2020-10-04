@@ -1,0 +1,23 @@
+name: '{{cookiecutter.name}}'
+description: '{{cookiecutter.description}}'
+branding:
+  # List of supported icons
+  # https://docs.github.com/en/actions/creating-actions/metadata-syntax-for-github-actions#brandingicon
+  icon: octagon
+  color: {{ cookiecutter.branding_color }}
+
+### Action inputs
+#inputs:
+#  something:
+#    description: 'Some inputs'
+#    required: false
+#    default: '1'
+
+### Action outputs
+#outputs:
+#  sum: # id of the output
+#    description: 'The sum of the inputs'
+
+runs:
+  using: 'docker'
+  image: 'Dockerfile'

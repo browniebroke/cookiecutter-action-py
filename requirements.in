@@ -1,0 +1,8 @@
+binaryornot
+black
+cookiecutter
+flake8
+isort
+pytest
+pytest-cookies
+pyupgrade
