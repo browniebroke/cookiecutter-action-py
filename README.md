@@ -8,7 +8,7 @@
     <img src="https://img.shields.io/badge/code%20style-black-000000.svg?style=flat-square" alt="black">
   </a>
   <a href="https://github.com/cookiecutter/cookiecutter">
-    <img src="https://img.shields.io/badge/cookiecutter-template-D4AA00.svg?style=flat-square&logo=data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAA0AAAANCAYAAABy6+R8AAAACXBIWXMAAAsTAAALEwEAmpwYAAAAAXNSR0IArs4c6QAAAARnQU1BAACxjwv8YQUAAAFGSURBVHgBfZK9TsJQGIaf01KMITFEjYkbowMkcgf1DnDwhzh5BdTde0A2N0ciDF6CvYMOMDnhYIxxISb415R6voMttTR+yUnenp7n+3nPUWRiNMS1YjpzcBVUY5ha4M8VvcYRfnJOJWI8pBtFeLMP2KiwGjFX9RMuRFoJoDcN8PkF3yG8zXKQohX0qYm0pSUVcy0fa2WorOtNG84uoezAnjnGJIw4aLaZGH404E732Mp3I5VMmzF++M5h85xp8q+klysi0tPrmUx2CQPM6dVP8fIJLXFJxPMrPDxCGKYz+EWAgcRWEVJhdxscJ3XLHd/SDW4WSf9AevkidjZhq7rimOdUCBLXllBEj/+j5tjcjwfsp1Cjja9bLATFnATUKxj1F6aZy20c4xWBTy+ZS9ZOSoFF15kwmWw6/L49/TKmSrtYUktA4gf8/GkbfkwaBAAAAABJRU5ErkJggg==" alt="cookiecutter">
+    <img src="https://img.shields.io/badge/cookiecutter-template-D4AA00.svg?style=flat-square&logo=data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAA0AAAAPCAYAAAA/I0V3AAAACXBIWXMAAAsTAAALEwEAmpwYAAAAAXNSR0IArs4c6QAAAARnQU1BAACxjwv8YQUAAADHSURBVHgBlZKBDcIgEEVhA0fQCewIOEE7ghvoCN2gOgFugBNInMANxA10As9/tpiTQJv+5JVA/i/cgVJCRLQAO+DBk3rx6IBRqbBYgTCYYiCV5R/HwFIYDWiorHMMhYKBj3oTc//dCZ8tlWVE6CRr8TStNm2ALNpljrrPdS3KDnPZBKdyEjt1YJPZqQUaqLk1sWf1C9L4nUiFNHiZEazki7gXjAf6r9PK2mLwnYRq6pvB6x17daabDYYarAE/zhe4gqPW+sGeD9vRPwSlHFC8AAAAAElFTkSuQmCC" alt="cookiecutter">
   </a>
 </p>
 
