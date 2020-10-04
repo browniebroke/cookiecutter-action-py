@@ -1,5 +1,17 @@
 # {{ cookiecutter.name }}
 
+<p align="center">
+  <a href="https://github.com/{{ cookiecutter.github_username }}/{{ cookiecutter.hyphenated_name }}/actions?query=workflow%3ACI">
+    <img alt="CI Status" src="https://img.shields.io/github/workflow/status/{{ cookiecutter.github_username }}/{{ cookiecutter.hyphenated_name }}/CI?label=CI&logo=github&style=flat-square">
+  </a>
+  <a href="https://github.com/ambv/black">
+    <img src="https://img.shields.io/badge/code%20style-black-000000.svg?amp;style=flat-square" alt="black">
+  </a>
+  <a href="https://github.com/pre-commit/pre-commit">
+    <img src="https://img.shields.io/badge/pre--commit-enabled-brightgreen?logo=pre-commit&logoColor=white&style=flat-square" alt="pre-commit">
+  </a>
+</p>
+
 {{ cookiecutter.description }}.
 
 ## Usage

@@ -1,5 +1,14 @@
 # Cookiecutter Python Action
 
+<p align="center">
+  <a href="https://github.com/browniebroke/cookiecutter-action-py/actions?query=workflow%3ACI">
+    <img alt="GitHub Workflow Status" src="https://img.shields.io/github/workflow/status/browniebroke/cookiecutter-action-py/CI?label=CI&logo=github&style=flat-square">
+  </a>
+  <a href="https://github.com/ambv/black">
+    <img src="https://img.shields.io/badge/code%20style-black-000000.svg?amp;style=flat-square" alt="black">
+  </a>
+</p>
+
 A cookiecutter template for generating Github actions running Python
 
 ## Features
