@@ -13,7 +13,7 @@ deprecated==1.2.10        # via pygithub
 environs==8.0.0           # via -r {{cookiecutter.hyphenated_name}}/requirements.in
 flake8==3.8.4             # via -r {{cookiecutter.hyphenated_name}}/requirements.in
 idna==2.10                # via requests
-isort==5.5.4              # via -r {{cookiecutter.hyphenated_name}}/requirements.in
+isort==5.5.5              # via -r {{cookiecutter.hyphenated_name}}/requirements.in
 marshmallow==3.8.0        # via environs
 mccabe==0.6.1             # via flake8
 mypy-extensions==0.4.3    # via black
