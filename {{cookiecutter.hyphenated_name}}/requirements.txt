@@ -10,7 +10,7 @@ certifi==2020.6.20        # via requests
 chardet==3.0.4            # via requests
 click==7.1.2              # via black
 deprecated==1.2.10        # via pygithub
-environs==9.0.0           # via -r {{cookiecutter.hyphenated_name}}/requirements.in
+environs==9.2.0           # via -r {{cookiecutter.hyphenated_name}}/requirements.in
 flake8==3.8.4             # via -r {{cookiecutter.hyphenated_name}}/requirements.in
 idna==2.10                # via requests
 isort==5.6.4              # via -r {{cookiecutter.hyphenated_name}}/requirements.in
