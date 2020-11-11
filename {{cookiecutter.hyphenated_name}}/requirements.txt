@@ -23,7 +23,7 @@ pyflakes==2.2.0           # via flake8
 pygithub==1.53            # via -r {{cookiecutter.hyphenated_name}}/requirements.in
 pyjwt==1.7.1              # via pygithub
 python-dotenv==0.14.0     # via environs
-pyupgrade==2.7.3          # via -r {{cookiecutter.hyphenated_name}}/requirements.in
+pyupgrade==2.7.4          # via -r {{cookiecutter.hyphenated_name}}/requirements.in
 regex==2020.7.14          # via black
 requests==2.24.0          # via pygithub
 tokenize-rt==4.0.0        # via pyupgrade
