@@ -17,22 +17,23 @@ A cookiecutter template for generating Github actions running Python
 ## Features
 
 - CI powered Github actions.
-- Dependabot pre-configured.
-- Comes with a set of [pre-commit](https://pre-commit.com/) hooks.
-- Follow [the conventional commits](https://www.conventionalcommits.org) specification. 
-- Releasing automated with [python-semantic-release](https://github.com/relekang/python-semantic-release).
+- Dependencies managed by [Poetry]
+- Pre-configured with [Renovate].
+- Comes with a set of [pre-commit] hooks.
+- Follow [the conventional commits][conventional-commits] specification. 
+- Releasing automated with [python-semantic-release][psr].
 
 ## Quick start
 
 ### Pre-requisites
 
-Make sure that you have the [cookiecutter](https://cookiecutter.readthedocs.io) command line interface installed:
+Make sure that you have the [cookiecutter][cc-rtd] command line interface installed:
 
 ```shell script
 cookiecutter --version
 ```
 
-If this is not the case, install it first. Check out [their documentation](https://cookiecutter.readthedocs.io/en/latest/installation.html) for the most up to date info for your platform.
+If this is not the case, install it first. Check out [their documentation][cc-install] for the most up to date info for your platform.
 
 ### Usage
 
@@ -68,3 +69,11 @@ The generated project will live in a directory named after the answer you gave f
 - Create a virtualenv
 - Install the dependencies
 - Commit and push to the Github repo.
+
+[Poetry]: https://python-poetry.org/
+[Renovate]: https://docs.renovatebot.com/
+[pre-commit]: https://pre-commit.com/
+[conventional-commits]: https://www.conventionalcommits.org
+[psr]: https://github.com/relekang/python-semantic-release
+[cc-rtd]: https://cookiecutter.readthedocs.io
+[cc-install]: https://cookiecutter.readthedocs.io/en/latest/installation.html
