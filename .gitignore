@@ -129,3 +129,6 @@ dmypy.json
 .pyre/
 
 .cache/
+
+# File normally ignored that we want to commit
+!{{cookiecutter.hyphenated_name}}/.idea/
