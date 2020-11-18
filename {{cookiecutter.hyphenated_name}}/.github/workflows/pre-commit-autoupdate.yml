@@ -24,9 +24,10 @@ jobs:
     - name: Create Pull Request
       uses: peter-evans/create-pull-request@v3.4.0
       with:
-        token: {% raw %}${{ secrets.GITHUB_TOKEN }}{% endraw %}
-        # Setup CPR_GITHUB_TOKEN secret to get CI running
-        # token: {% raw %}${{ secrets.CPR_GITHUB_TOKEN }}{% endraw %}
+        # CI won't be running on pull requests if using GITHUB_TOKEN
+        # We instead use a personal access token (PAT) with the 'repo' scope
+        # https://github.com/settings/tokens/new?scopes=repo
+        token: {% raw %}${{ secrets.GH_PAT }}{% endraw %}
         branch: update/pre-commit-autoupdate
         title: Update pre-commit hooks
         commit-message: 'chore: update pre-commit hooks'

@@ -7,7 +7,7 @@ on:
   pull_request:
 
 jobs:
-  test:
+  lint:
     strategy:
       fail-fast: false
       matrix:
@@ -23,11 +23,10 @@ jobs:
       uses: actions/setup-python@v2.1.2
       with:
         python-version: 3.8
+    - uses: abatilo/actions-poetry@v2.1.0
     - name: Install Dependencies
-      run: |
-        python -m pip install -U pip
-        pip install -r requirements.txt
-    - run: {% raw %}${{ matrix.script }}{% endraw %}
+      run: poetry install
+    - run: poetry run {% raw %}${{ matrix.script }}{% endraw %}
 
   commitlint:
     runs-on: ubuntu-latest

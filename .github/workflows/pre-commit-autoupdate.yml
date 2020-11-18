@@ -28,7 +28,7 @@ jobs:
     - name: Create Pull Request
       uses: peter-evans/create-pull-request@v3.5.0
       with:
-        token: ${{ secrets.CPR_GITHUB_TOKEN }}
+        token: ${{ secrets.GH_PAT }}
         branch: update/pre-commit-autoupdate
         title: Update pre-commit hooks
         commit-message: 'chore: update pre-commit hooks'

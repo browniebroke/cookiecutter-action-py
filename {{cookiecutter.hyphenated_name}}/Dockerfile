@@ -3,14 +3,18 @@ FROM python:3.8-slim
 # Create app directory
 WORKDIR /app
 
-# Copy requiremnts file
-COPY requirements.txt requirements.txt
+# Install poetry & disable virtual environemnt
+RUN pip install poetry && \
+    poetry config virtualenvs.create false
 
-# Install dependencies
-RUN pip install -r requirements.txt
+# Copy config files
+COPY pyproject.toml poetry.lock ./
+
+# Install only main dependencies
+RUN poetry install --no-root --no-dev
 
 # Copies source code
 COPY src /app
 
-# Run your code
+# Run the app
 ENTRYPOINT ["python", "/app/app.py"]
