@@ -12,25 +12,13 @@ concurrency:
 
 jobs:
   lint:
-    strategy:
-      fail-fast: false
-      matrix:
-        script:
-          - flake8
-          - black --check .
-          - pyupgrade --py38-plus `find . -name "*.py"`
-          - isort -c -v .
     runs-on: ubuntu-latest
     steps:
-      - uses: actions/checkout@v2.4.0
-      - name: Set up Python
-        uses: actions/setup-python@v2.3.2
+      - uses: actions/checkout@v2
+      - uses: actions/setup-python@v2
         with:
-          python-version: 3.8
-      - uses: abatilo/actions-poetry@v2.1.0
-      - name: Install Dependencies
-        run: poetry install
-      - run: poetry run {% raw %}${{ matrix.script }}{% endraw %}
+          python-version: "3.9"
+      - uses: pre-commit/action@v2.0.3
 
   commitlint:
     runs-on: ubuntu-latest

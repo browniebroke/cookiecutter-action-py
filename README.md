@@ -4,6 +4,9 @@
   <a href="https://github.com/browniebroke/cookiecutter-action-py/actions?query=workflow%3ACI">
     <img alt="GitHub Workflow Status" src="https://img.shields.io/github/workflow/status/browniebroke/cookiecutter-action-py/CI?label=CI&logo=github&style=flat-square">
   </a>
+  <a href="https://results.pre-commit.ci/latest/github/browniebroke/cookiecutter-action-py/main">
+    <img alt="pre-commit.ci status" src="https://results.pre-commit.ci/badge/github/browniebroke/cookiecutter-action-py/main.svg">
+  </a>
   <a href="https://github.com/ambv/black">
     <img src="https://img.shields.io/badge/code%20style-black-000000.svg?style=flat-square" alt="black">
   </a>
@@ -20,7 +23,7 @@ A cookiecutter template for generating Github actions running Python
 - Dependencies managed by [Poetry]
 - Pre-configured with [Renovate].
 - Comes with a set of [pre-commit] hooks.
-- Follow [the conventional commits][conventional-commits] specification. 
+- Follow [the conventional commits][conventional-commits] specification.
 - Releasing automated with [python-semantic-release][psr].
 
 ## Quick start
@@ -41,12 +44,12 @@ To create a project for a Python powered Github action:
 
 ```shell
 > cookiecutter https://github.com/browniebroke/cookiecutter-action-py
-author_name [Bruno Alla]: 
-email [alla.brunoo@gmail.com]: 
-github_username [browniebroke]: 
-name [Github Action Python]: 
-hyphenated_name [github-action-python]: 
-description [A Github Action to run some Python code]: 
+author_name [Bruno Alla]:
+email [alla.brunoo@gmail.com]:
+github_username [browniebroke]:
+name [Github Action Python]:
+hyphenated_name [github-action-python]:
+description [A Github Action to run some Python code]:
 Select branding_color:
 1 - white
 2 - yellow
@@ -64,14 +67,14 @@ The generated project will live in a directory named after the answer you gave f
 ### Next steps
 
 - You code goes in `src/app.py`
-- If your action needs inputs, you need to declare them in `action.yml` and get their values from the environment in `app.py`. 
+- If your action needs inputs, you need to declare them in `action.yml` and get their values from the environment in `app.py`.
   An example input for `something` is commented out in both files.
 - Create a virtualenv
 - Install the dependencies
 - Commit and push to the Github repo.
 
-[Poetry]: https://python-poetry.org/
-[Renovate]: https://docs.renovatebot.com/
+[poetry]: https://python-poetry.org/
+[renovate]: https://docs.renovatebot.com/
 [pre-commit]: https://pre-commit.com/
 [conventional-commits]: https://www.conventionalcommits.org
 [psr]: https://github.com/relekang/python-semantic-release
