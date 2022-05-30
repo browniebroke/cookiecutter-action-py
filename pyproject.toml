@@ -9,7 +9,7 @@ license = "MIT"
 python = "^3.7"
 
 [tool.poetry.dev-dependencies]
-cookiecutter = "^1.7"
+cookiecutter = "^2.1"
 binaryornot = "^0.4.4"
 black = "^22.1"
 flake8 = "^4.0"
