@@ -1,8 +1,8 @@
 # Cookiecutter Python Action
 
 <p align="center">
-  <a href="https://github.com/browniebroke/cookiecutter-action-py/actions?query=workflow%3ACI">
-    <img alt="GitHub Workflow Status" src="https://img.shields.io/github/actions/workflow/status/browniebroke/cookiecutter-action-py/CI?label=CI&logo=github&style=flat-square">
+  <a href="https://github.com/browniebroke/cookiecutter-action-py/actions/workflows/ci.yml?query=branch%3Amain">
+    <img alt="CI Status" src="https://img.shields.io/github/actions/workflow/status/browniebroke/cookiecutter-action-py/ci.yml?branch=main&label=CI&logo=github&style=flat-square">
   </a>
   <a href="https://results.pre-commit.ci/latest/github/browniebroke/cookiecutter-action-py/main">
     <img alt="pre-commit.ci status" src="https://results.pre-commit.ci/badge/github/browniebroke/cookiecutter-action-py/main.svg">
