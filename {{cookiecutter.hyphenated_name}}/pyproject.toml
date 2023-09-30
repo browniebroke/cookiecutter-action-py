@@ -18,7 +18,7 @@ classifiers = [
 [tool.poetry.dependencies]
 python = "^3.8"
 environs = "^9.2.0"
-PyGithub = "^1.53"
+PyGithub = "^2.0.0"
 
 [tool.poetry.dev-dependencies]
 black = "^23.1"
