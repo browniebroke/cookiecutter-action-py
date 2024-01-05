@@ -22,7 +22,7 @@ PyGithub = "^2.0.0"
 
 [tool.poetry.dev-dependencies]
 black = "^23.1"
-flake8 = "^6.0"
+flake8 = "^7.0.0"
 isort = "^5.6"
 pyupgrade = "^3.0"
 
