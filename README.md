@@ -7,8 +7,8 @@
   <a href="https://results.pre-commit.ci/latest/github/browniebroke/cookiecutter-action-py/main">
     <img alt="pre-commit.ci status" src="https://results.pre-commit.ci/badge/github/browniebroke/cookiecutter-action-py/main.svg">
   </a>
-  <a href="https://github.com/ambv/black">
-    <img src="https://img.shields.io/badge/code%20style-black-000000.svg?style=flat-square" alt="black">
+  <a href="https://github.com/astral-sh/ruff">
+    <img src="https://img.shields.io/endpoint?url=https://raw.githubusercontent.com/astral-sh/ruff/main/assets/badge/v2.json" alt="Ruff">
   </a>
   <a href="https://github.com/cookiecutter/cookiecutter">
     <img src="https://img.shields.io/badge/cookiecutter-template-D4AA00.svg?style=flat-square&logo=data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAA0AAAAPCAYAAAA/I0V3AAAACXBIWXMAAAsTAAALEwEAmpwYAAAAAXNSR0IArs4c6QAAAARnQU1BAACxjwv8YQUAAADHSURBVHgBlZKBDcIgEEVhA0fQCewIOEE7ghvoCN2gOgFugBNInMANxA10As9/tpiTQJv+5JVA/i/cgVJCRLQAO+DBk3rx6IBRqbBYgTCYYiCV5R/HwFIYDWiorHMMhYKBj3oTc//dCZ8tlWVE6CRr8TStNm2ALNpljrrPdS3KDnPZBKdyEjt1YJPZqQUaqLk1sWf1C9L4nUiFNHiZEazki7gXjAf6r9PK2mLwnYRq6pvB6x17daabDYYarAE/zhe4gqPW+sGeD9vRPwSlHFC8AAAAAElFTkSuQmCC" alt="cookiecutter">
