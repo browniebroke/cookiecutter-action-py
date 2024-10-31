@@ -10,7 +10,7 @@ authors = [ "Bruno Alla <alla.brunoo@gmail.com>" ]
 license = "MIT"
 
 [tool.poetry.dependencies]
-python = "^3.8"
+python = "^3.9"
 
 [tool.poetry.group.dev.dependencies]
 cookiecutter = "^2.1"
@@ -19,7 +19,7 @@ pytest = "^8.0.0"
 pytest-cookies = "^0.7.0"
 
 [tool.ruff]
-target-version = "py38"
+target-version = "py39"
 line-length = 88
 
 lint.select = [
