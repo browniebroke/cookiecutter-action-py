@@ -1,22 +1,6 @@
 [build-system]
-build-backend = "poetry.core.masonry.api"
-requires = [ "poetry-core>=1" ]
-
-[tool.poetry]
-name = "cookiecutter-action-py"
-version = "0.1.0"
-description = "A cookiecutter template for generating GitHub actions running Python"
-authors = [ "Bruno Alla <alla.brunoo@gmail.com>" ]
-license = "MIT"
-
-[tool.poetry.dependencies]
-python = "^3.9"
-
-[tool.poetry.group.dev.dependencies]
-cookiecutter = "^2.1"
-binaryornot = "^0.4.4"
-pytest = "^8.0.0"
-pytest-cookies = "^0.7.0"
+build-backend = "setuptools.build_meta"
+requires = [ "setuptools" ]
 
 [tool.ruff]
 target-version = "py39"
@@ -51,3 +35,22 @@ lint.per-file-ignores."tests/**/*" = [
   "S101",
 ]
 lint.isort.known-first-party = [ "src" ]
+
+[dependency-groups]
+dev = [
+    "cookiecutter<3.0,>=2.1",
+    "binaryornot<1.0.0,>=0.4.4",
+    "pytest<9.0.0,>=8.0.0",
+    "pytest-cookies<1.0.0,>=0.7.0",
+]
+
+[project]
+authors = [
+    {name = "Bruno Alla", email = "alla.brunoo@gmail.com"},
+]
+license = {text = "MIT"}
+requires-python = ">=3.9"
+dependencies = []
+name = "cookiecutter-action-py"
+version = "0.1.0"
+description = "A cookiecutter template for generating GitHub actions running Python"
