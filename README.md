@@ -73,7 +73,7 @@ The generated project will live in a directory named after the answer you gave f
 - Install the dependencies
 - Commit and push to the Github repo.
 
-[poetry]: https://python-poetry.org/
+[poetry]: https://github.com/astral-sh/uv
 [renovate]: https://docs.renovatebot.com/
 [pre-commit]: https://pre-commit.com/
 [conventional-commits]: https://www.conventionalcommits.org
