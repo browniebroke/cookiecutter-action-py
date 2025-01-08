@@ -19,7 +19,5 @@ jobs:
         with:
           python-version: 3.9
       - uses: astral-sh/setup-uv@v5
-        with:
-          enable-cache: "true"
       - run: uv sync --no-python-downloads
       - run: uv run pytest
