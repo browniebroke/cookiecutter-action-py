@@ -61,3 +61,6 @@ lint.per-file-ignores."tests/**/*" = [
   "S101",
 ]
 lint.isort.known-first-party = [ "src" ]
+
+[tool.pyproject-fmt]
+max_supported_python = "3.14"
