@@ -16,7 +16,7 @@ classifiers = [
 ]
 
 [tool.poetry.dependencies]
-python = "^3.8"
+python = "^3.10"
 environs = "^14.0.0"
 PyGithub = "^2.0.0"
 
@@ -31,7 +31,7 @@ upload_to_pypi = false
 upload_to_release = false
 
 [tool.ruff]
-target-version = "py38"
+target-version = "py310"
 line-length = 88
 ignore = [
     "D203", # 1 blank line required before class docstring
